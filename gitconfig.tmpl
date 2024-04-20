@@ -1,4 +1,13 @@
 [user]
     name = $gituser
     email = $gitmail
+    signingkey = $git_gpgkey
 
+[gpg]
+    format = $git_gpgformat
+
+[gpg 'ssh']
+    program = $git_gpgprog
+
+[commit]
+    gpgsign = $git_gpgsign
