@@ -1,5 +1,9 @@
 #! /usr/bin/env bash
 
+pkg.link(){
+    fs.link_file "${PKG_PATH}/gitmessage" "${ELLIPSIS_HOME}/.gitmessage"
+}
+
 pkg.install(){
     # collect information
     read -p "Which name should be configured in gitconfig? " gituser
@@ -29,5 +33,4 @@ pkg.install(){
 
     # generating configs
     envsubst < gitconfig.tmpl > ${HOME}/.gitconfig
-    envsubst < gitmessage.tmpl > ${HOME}/.gitmessage
 }
