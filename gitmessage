@@ -1,0 +1,21 @@
+# This is a template file for gitmessage
+# If you want to modify the template you can find it under ~/.gitmessage
+# 
+# The first line should include a strong headline
+# and should not longer then 50 chars           #
+
+# Rember the blank line between headline and body!
+# For the body use a body-with of 72 chars                            #
+# The body should include following content:
+#  * why is the change necessary
+#  * what affect has the change
+#  * which side-effects are produced
+#  * if provideable: ticket-number / -link
+
+# If the commit is co-authored (e.g. during pair-programming)
+# you should include the co-author.
+# The right formation is:
+#  * include at least one blank line between body and co-author
+#  * for each author you should use a line formated like this
+#    Co-authored-by: <name> - <author-email> or for github-user
+#    Co-authored-by: <name> - <user@users.noreply.github.com>
